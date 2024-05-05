@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.photos.library:google-photos-library-client:1.7.3'
+}
+
+application {
+    mainClass = 'hello.Main'
+}
